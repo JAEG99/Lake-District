@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 
-
 /*--------------------------------------------Heading*/
 .bg-color-name-title {
     background-color: #F5FFF2;
@@ -15,7 +14,6 @@
 body {
     font-family: 'Playfair Display', serif;
     color: black;
-
 }
 
 h1 {
@@ -60,3 +58,10 @@ h1 {
 
 /*--------------------------------------------Hero Image*/
 
+#hero {
+    height: 600px;
+    width: 100%;
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
