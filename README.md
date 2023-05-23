@@ -1,39 +1,47 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">The Lake District Tourist Website</h1>
 
-Welcome,
+[View the live project here](#)
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The Lake District is a website that allows newer travelers to the area be able to get a good understanding of the places to visit and enjoy. the main function of the webiste it to be a short and consice way for traverlers and hikers to be able to find the quick info they want, weather that is walks, hotels or cafes to fill up in. thsi site will be useful as it will give people the ability to get good starting info if they want to visit the area.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **March 3rd, 2023**
+![Mockup]()
 
-## Codeanywhere Reminders
+## Index – Table of Contents
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- [Index – Table of Contents](#index--table-of-contents)
+- [User Experience (UX)](#user-experience-ux)
+- [Features](#features)
+  - [Existing Features](#existing-features)
 
-`python3 -m http.server`
+## User Experience (UX)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* ### User stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+  * #### A. First Time Visitor Goals
 
-`http_server`
+        1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn the information i want to know.
+        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a First Time Visitor, I want to be able to easily navigate to and view the different types of walks and ammenaties.
+        4. As a First Time Visitor, I want to be able to easily find where different ammentaies and walks are.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  * #### B. Returning Visitor Goals
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+        1. As a Returning Visitor, I want to be able to access and view the walks and other accomodations quickly.
+        2. As a Returning Visitor, I want to be able to check walk details quickly and easily.
+        3. As a Returning Visitor, I want to be able to use the social media tags to higlight the site online.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  * #### C. Frequent User Goals
 
-To log into the Heroku toolbelt CLI:
+        1. As a Frequent User, I want to be able to sign-up easily for discounts, news and more.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Features
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Existing Features
 
----
+* __F01 Navigation Bar__
 
-Happy coding!
+  * The navigation bar has a steady look and placement on all three pages of the site assisting in clean navigation. It consists of a simple brand, home page, Hotel, Hikes and Cafe page with hyperlinks and is responsive on multiple display sizes. On small monitors the home, Menu and phone links move to beneath the logo. 
+
+      ![Navbar](documentation/supp-images/f01-nav-bar.png)
+
+* 

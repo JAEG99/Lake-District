@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bbe126dd2d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Lake District</title>
 </head>
@@ -17,27 +18,78 @@
         <a href="index.html">
             <h1 id="logo">Lake District</h1>
         </a>
-        <div class="row bg-color-name-title">
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="#">Hikes</a>
-                    </li>
-                    <li>
-                        <a href="#">Hotels</a>
-                    </li>
-                    <li>
-                        <a href="#">Cafes</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul id="menu" style="
+                padding-bottom: 33px;
+                background-color: #F5FFF2;
+            ">
+                <li><a href="hikes.html">Hikes</a></li>
+                <li><a href="hotels.html">Hotels</a></li>
+                <li><a href="cafes.html">Cafes</a></li>
+            </ul>
+        </nav>
     </header>
-    <section>
-        <div id="hero">
-            <!-- Content for the hero section can be added here -->
+    
+</body>
+    <section id="hero-outer">
+        <div id="hero"></div>
+        <div id="cover-text">
+            <h2>The Lake District</h2>
+            <h3>The Lake District is a region and national park in Cumbria in northwest England. A popular vacation
+            destination, it’s
+            known for its glacial ribbon lakes, rugged fell mountains and historic literary associations. Market
+            towns such as
+            Kendal, Ambleside and Keswick on scenic Derwentwater are bases for exploring the area and home to
+            traditional inns,
+            galleries of local art and outdoor equipment shops.</h3>
         </div>
     </section>
+        <section class="flavour-text">
+        <div id="left-flavour">
+            <div class="left-why-heading">
+                <h2>Why pick the Lake District?<i class="fa-solid fa-signs-post"></i></h2>
+                    <hr>
+                    <p>The Lake District is one of the most picturesque places on Earth and it's finally been
+                        rewarded for its
+                        stunning natural beauty. The National Park has been granted UNESCO World Heritage Status,
+                        joining the likes of the Taj
+                        Mahal, the Grand Canyon and the Great Wall of China.
+                    </p>
+            </div>
+        </div>
+        <div id="right-flavour">
+            <div class="right-why-heading">
+                <h2>Why should you choose to hike here?<i class="fa-solid fa-person-walking"></i></h2>
+                <hr>
+                <p>You'll find stunning lakes, green rolling hills, and wild fells, and plenty of fantastic walking
+                    opportunities. The
+                    northern part of the region, close to Keswick, also offers some wonderful hiking trails,
+                    including the picturesque peaks
+                    around Buttermere.</p>
+            </div>
+        </div>
+        <div id="center-about">
+        <div id="container">
+            <div id="cover-bg"></div>
+        </div>
+        </div>
+        </section>
+        
+        <footer>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i> </a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i> </a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> </a></li>
+            </ul>
+            <p>
+                © 2023 - 2023 www.lakedistrict.com - All Rights Reserved.
+            </p>
+            <form>
+                <label for="email">Sign Up!:</label>
+                <input type="email" name="email" id="email" required>
+                <input type="submit" value="Submit">
+            </form>
+        </footer>
 </body>
 
 </html>
