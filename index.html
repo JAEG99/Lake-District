@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+<!-- This is the links I use throughout my code -->
+<head> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +12,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Lake District</title>
 </head>
-
+<!-- Th -->
 <body>
-    <header>
+    <header><!-- The header stays a consistant part fo the site and is seen looking the same throughout -->
         <a href="index.html">
-            <h1 id="logo">Lake District</h1>
+            <h1 id="logo">Lake District</h1><!-- This is the logo/text at the top right of the site -->
         </a>
         <nav>
-            <ul id="menu" style="
-                padding-bottom: 33px;
-                background-color: #F5FFF2;
-            ">
+            <ul id="menu" style="background-color: #F5FFF2;"> <!-- The ul for the navigation from the header -->
                 <li><a href="hikes.html">Hikes</a></li>
                 <li><a href="hotels.html">Hotels</a></li>
                 <li><a href="cafes.html">Cafes</a></li>
@@ -31,9 +28,9 @@
     </header>
     
 </body>
-    <section id="hero-outer">
+    <section id="hero-outer"> <!-- This is the section for the hero image presnet as the first section of the index -->
         <div id="hero"></div>
-        <div id="cover-text">
+        <div id="cover-text"> <!-- The cover text which has a white background as to be readable -->
             <h2>The Lake District</h2>
             <h3>The Lake District is a region and national park in Cumbria in northwest England. A popular vacation
             destination, it’s
@@ -44,7 +41,7 @@
             galleries of local art and outdoor equipment shops.</h3>
         </div>
     </section>
-        <section class="flavour-text">
+        <section class="flavour-text"> <!-- The first flavour text going left, right and center -->
         <div id="left-flavour">
             <div class="left-why-heading">
                 <h2>Why pick the Lake District?<i class="fa-solid fa-signs-post"></i></h2>
@@ -74,21 +71,35 @@
         </div>
         </div>
         </section>
-        
-        <footer>
-            <ul class="social-links">
-                <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i> </a></li>
-                <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i> </a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> </a></li>
-            </ul>
-            <p>
+        <!-- The footer -->
+        <footer> 
+            <div class="container">
+                <div class="column">
+                    <h3>Follow Us</h3>
+                    <ul class="social-links"> <!-- social links that only lead to the home pages-->
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="column"> <!-- fake contact detailes -->
+                    <h3>Contact</h3>
+                    <p>123 Street, City</p>
+                    <p>lakedistrict@example.com</p>
+                    <p>123-456-7890</p>
+                </div>
+                <div class="column"> <!-- This is a way to get a news letter and deals for people who want them-->
+                    <h3>Newsletter</h3>
+                    <form>
+                        <label for="email">Sign Up!:</label>
+                        <input type="email" name="email" id="email" required> <!-- Need an email to be sumbited -->
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+            <p class="copyright"> <!-- added copyright text -->
                 © 2023 - 2023 www.lakedistrict.com - All Rights Reserved.
             </p>
-            <form>
-                <label for="email">Sign Up!:</label>
-                <input type="email" name="email" id="email" required>
-                <input type="submit" value="Submit">
-            </form>
         </footer>
 </body>
 

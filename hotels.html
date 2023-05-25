@@ -16,35 +16,26 @@
 <body>
     <header>
         <a href="index.html">
-            
             <h1 id="logo">Lake District</h1>
         </a>
-        <div class="row bg-color-name-title">
-            <nav>
-                <ul id="menu" style="
-                                padding-bottom: 33px;
-                                background-color: #F5FFF2;
-                            ">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="hikes.html">Hikes</a>
-                    </li>
-                    <li>
-                        <a href="cafes.html">Cafes</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul id="menu" style="
+                        
+                        background-color: #F5FFF2;
+                    ">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hikes.html">Hikes</a></li>
+                <li><a href="cafes.html">Cafes</a></li>
+            </ul>
+        </nav>
     </header>
     <section class="page-opener">
         <div class="page-opener-content">
-            <h1>Welcome to our Hotel Showcase</h1>
+            <h2>Welcome to our Hotel Showcase</h2>
             <p>Discover the perfect accommodations for your next trip</p>
         </div>
     </section>
-    <section>
+    <div>
         <section class="hotel">
             <div class="hotel-info">
                 <h2>Lodore Falls Hotel & Spa</h2>
@@ -76,42 +67,49 @@
         
         </section>
         
-    </section>
+    </div>
     <hr>
-    <section id="bottom-map">
-        <p align="center" style="text-decoration: underline;">Below we have included a map for you to be able to look around
+    <div id="bottom-map">
+        <p>Below we have included a map for you to be able to look around
             for other such cafes you may enjoy!</p>
     
-        <div class="center" style="max-width:100%;overflow:hidden;color:#c3f8c1;width:700px;height:200px;">
-            <div id="gmap-canvas" style="height:100%; width:100%;max-width:100%;"><iframe
-                    style="height:100%;width:100%;border:0;" frameborder="0"
-                    src="https://www.google.com/maps/embed/v1/search?q=cafes+near+Keswick,+UK&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-            </div><a class="google-map-html" href="https://kbj9qpmy.com/bp" id="authorize-map-data"></a>
-            <style>
-                #gmap-canvas img {
-                    max-width: none !important;
-                    background: none !important;
-                    font-size: inherit;
-                    font-weight: inherit;
-                }
-            </style>
+        <div class="center">
+            <div id="gmap-canvas">
+                <iframe 
+                    src="https://www.google.com/maps/embed/v1/search?q=Lake+District+Hotels&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+            </div>
+            <a class="google-map-code-enabler" rel="nofollow" href="https://kbj9qpmy.com/bp" id="make-map-infor-mation"></a>
         </div>
-    </section>
+    </div>
     <hr>
     <footer>
-        <ul class="social-links">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i> </a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i> </a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> </a></li>
-        </ul>
-        <p>
+        <div class="container">
+            <div class="column">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Contact</h3>
+                <p>123 Street, City</p>
+                <p>lakedistrict@example.com</p>
+                <p>123-456-7890</p>
+            </div>
+            <div class="column">
+                <h3>Newsletter</h3>
+                <form>
+                    <label for="email">Sign Up!:</label>
+                    <input type="email" name="email" id="email" required>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <p class="copyright">
             © 2023 - 2023 www.lakedistrict.com - All Rights Reserved.
         </p>
-        <form>
-            <label for="email">Sign Up!:</label>
-            <input type="email" name="email" id="email" required>
-            <input type="submit" value="Submit">
-        </form>
     </footer>
 </body>
 

@@ -33,7 +33,7 @@ header {
 header img {
     float: right;
     width: 50px;
-    height: 50px;
+    
 }
 
 h1 {
@@ -59,10 +59,12 @@ h1 {
     font-size: 110%;
     list-style-type: none;
     letter-spacing: 4px;
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
-
+#log, #menu {
+    line-height: 75px;
+}
 #menu li {
     display: inline-block;
     margin-left: 15px;
@@ -98,8 +100,8 @@ h1 {
 
     #menu li {
         display: block;
-        margin: 10px 0;
-        padding-top: 10px;
+        margin: 0px 0;
+        padding-top: 0px;
     }
 }
 
@@ -165,7 +167,77 @@ h1 {
     padding-left: 10px;
 
     background-color: #ffffffde;
-    opacity: 60%;
+    
+
+    bottom: 30px;
+    left: 150px;
+
+    position: absolute;
+}
+
+/*--------------------------------------------Info Section*/
+
+#hero {
+    height: 610px;
+    width: 100%;
+    background-image: url("../images/hero2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin-top: -10px;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#cover-text,
+#cover-text h2 {
+    color: black;
+
+}
+
+#cover-text h3 {
+    font-size: small;
+}
+
+#cover-text {
+
+    font-family: 'Playfair Display',
+        serif;
+
+    letter-spacing: 2px;
+
+    width: 500px;
+    height: 200px;
+    border-radius: 25px;
+
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    background-color: #ffffffde;
+    
 
     bottom: 30px;
     left: 150px;
@@ -176,7 +248,7 @@ h1 {
 /*--------------------------------------------Info Section*/
 
 .flavour-text p {
-    background-color: #fafafaf6;
+    background-color: #fffffff6;
     border-radius: 25px;
     padding-top: 5px;
     padding-right: 10px;
@@ -228,7 +300,7 @@ hr {
 }
 
 .right-why-heading h2 {
-    text-align: right;
+    
 }
 
 #container {
@@ -244,16 +316,94 @@ hr {
 
 }
 
+/*--------------------------------------------responsive index*/
+/* CSS for responsive design */
+/* Mobile Styles */
+@media screen and (max-width: 1023px) {
+    #cover-text {
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        bottom: 50px;
+    }
+
+    #left-flavour,
+    #right-flavour {
+        width: 100%;
+        float: none;
+        padding-top: 0px;
+        text-align: center;
+        width: fit-content;
+    }
+
+    #center-about {
+        display: none;
+        margin: 0 auto;
+        clear: both;
+    }
+
+    #hero h2 {
+        font-size: 16px;
+    }
+
+    #cover-text h3 {
+        font-size: 65%;
+    }
+
+    .left-why-heading {
+        width: fit-content;
+        
+        padding: 10px;
+    }
+
+    .right-why-heading {
+      width: fit-content;
+      
+    padding: 10px;
+    }
+}
+
+/* Tablet Styles */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #cover-text {
+        width: 70%;
+        left: 15%;
+        right: 15%;
+        bottom: 30px;
+    }
+}
+
+
+
+
 /*--------------------------------------------Footer*/
 
+/* CSS for the footer */
 footer {
-    height: 10px;
-    background-color: white;
+    background-color: #F5FFF2;
+    padding: 20px;
+    text-align: center;
+}
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .social-links {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .social-links li {
@@ -261,48 +411,67 @@ footer {
 }
 
 .social-links i {
-    font-size: 100%;
-    margin: 0%;
-    padding: 1%;
+    font-size: 18px;
+    margin: 5px;
     color: #777777;
-}
-
-footer p {
-    text-align: center;
-    font-size: 100%;
-    margin: 1%;
-    padding: 0%;
 }
 
 form {
     text-align: center;
+    margin-top: 10px;
 }
 
-input[type=submit] {
+input[type="email"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: #222324;
+    border-style: groove;
+}
+
+input[type="submit"] {
     background-color: #777777;
     color: white;
-    padding: 1px 2px;
-    border: none;
+    padding: 5px 10px;
+    border: 1px;
     border-radius: 4px;
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
     background-color: #b3cfdb;
 }
 
-input#email {
+footer p {
+    font-size: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
 
-    background-color: #F5FFF2;
-    border: #222324;
-    border-style: ridge;
+footer h3 {
+    text-align: center;
+}
 
+@media screen and (min-width: 768px) {
+    .column {
+        flex: 0 0 30%;
+    }
 }
 
 
 /*--------------------------------------------NEW PAGE- Hikes*/
 
-
+.page-opener h2 {
+    font-family: 'Playfair Display', serif;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        color: #555555;
+        background-color: #F5FFF2;
+        padding: 10px;
+        margin: 0;
+        border-style: double;
+        border-color: black;
+}
 #walks {
     background-color: #fafafaf6;
     border-radius: 25px;
@@ -372,18 +541,26 @@ input#email {
     width: 32%;
     padding: 10px;
     margin-left: 1px;
-    margin-right: 1px;
+    margin-right: 20px;
     margin-left: 20px;
     border-style: groove;
 }
+
+.row {
+    align-items: center;
+        justify-content: center;
+    }
 
 
 .row::after {
     content: "";
     clear: both;
     display: table;
+    align-items: center;
+        justify-content: center;
+    }
     
-}
+
 
 #cafes {
     background-color: #fafafaf6;
@@ -398,12 +575,14 @@ input#email {
     padding-top: 30px;
     width: 33%;
     float: left;
+    padding-left: 30px;
 }
 
 #cafe-2 {
     padding-top: 30px;
     width: 33%;
     float: right;
+    padding-right: 30px;
 }
 
 #cafe-3 {
@@ -424,6 +603,101 @@ input#email {
     text-align: center;
 }
 
+/*--------------------------------------------HIKES/CAFE RESPONSIVE*/
+
+@media only screen and (max-width: 767px) {
+
+    /* Adjust the page opener */
+    .page-opener-content {
+        text-align: center;
+    }
+
+    /* Hide the row element on mobile */
+    .row {
+        display: none;
+    }
+
+    /* Adjust the cafe sections */
+    #cafes {
+        margin-left: 0;
+        margin-right: 0;
+        width:100%;
+        text-align: center;
+        display: flex;
+            flex-direction: column;
+
+    }
+
+    /* Fix the page shift on mobile */
+    body {
+        margin: 0;
+        padding: 0;
+        margin-left: 5px;
+        /* Add margin on the left for mobile */
+    }
+
+    /* Center the cafe sections */
+    .cafe-section {
+        width: 100%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    /* Responsive changes for h2 and p elements */
+    h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 22px;
+        
+
+    }
+
+    /* Hide images on mobile */
+    .column img {
+        display: none;
+    }
+
+    /* Stack cafe sections on top of each other */
+    .cafe-section {
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    /* Adjust the cafe stats list */
+    .cafe-stats {
+        padding-left: 0;
+    }
+
+    .cafe-section-content {
+        text-align: center;
+    }
+
+    div#cafe-1.cafe-section,
+    div#cafe-2.cafe-section,
+    div#cafe-3.cafe-section {
+        margin: 0;
+        width: 100%;
+        padding-right: 40px;
+    }
+
+        div#cafe-1,
+        div#cafe-2,
+        div#cafe-3 {
+            margin: 0;
+                width: 100%;
+                padding-right: 30px;
+                padding-left: 30px;
+        }
+
+}
 /*--------------------------------------------NEW PAGE- Hotels*/
 
 
@@ -474,6 +748,35 @@ section.hotel {
     /* Added width property */
 }
 
+#bottom-map p{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.center {
+    max-width: 100%;
+    overflow: hidden;
+    color: #c3f8c1;
+    width: 700px;
+    height: 200px;
+}
+
+#gmap-canvas {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#gmap-canvas iframe {
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.google-map-code-enabler {
+    display: none;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -487,31 +790,44 @@ section.hotel {
         flex: 1;
     }
 
+    
+    
+    .page-opener {
+         background-image: url('/assets/images/topo.jpg');
+         background-size: cover;
+         background-position: center;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(5, 5, 5);
+        }
+    
+    .page-opener-content {
+        text-align: center;
+        }
+    
+    .page-opener-content h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        border: #222324;
+        border-style: double;
+        }
+    
+    .page-opener-content p {
+        font-size: 20px;
+        margin-bottom: 0;
+        background-color: white;
+        border-style: double;
+        border: #222324;
+        }
+    }
 
-        .page-opener {
-            background-image: url('/assets/images/topo.jpg');
-            background-size: cover;
-            background-position: center;
-            height: 400px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: rgb(5, 5, 5);
-        }
-    
-        .page-opener-content {
-            text-align: center;
-        }
-    
-        .page-opener-content h1 {
-            font-size: 36px;
-            margin-bottom: 20px;
-            border: #222324;
-            border-style: double;
-        }
-    
-        .page-opener-content p {
-            font-size: 20px;
-            margin-bottom: 0;
-            background-color: white;
-        }
+@media (max-width:820px) {
+
+    /* Adjust the breakpoint as needed */
+    .hotel-image img {
+        display: none;
+    }
+
+}

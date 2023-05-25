@@ -14,37 +14,28 @@
 </head>
 
 <body>
-    <header>
+    <header> <!-- The same header seen throught the pages / becomes stacked on mobile -->
         <a href="index.html">
-            
             <h1 id="logo">Lake District</h1>
         </a>
-        <div class="row bg-color-name-title">
-            <nav>
-                <ul id="menu" style="
-                                padding-bottom: 33px;
-                                background-color: #F5FFF2;
-                            ">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="hikes.html">Hikes</a>
-                    </li>
-                    <li>
-                        <a href="hotels.html">Hotels</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul id="menu" style="
+                    
+                    background-color: #F5FFF2;
+                ">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hotels.html">Hotels</a></li>
+                <li><a href="cafes.html">Cafes</a></li>
+            </ul>
+        </nav>
     </header>
     <section class="page-opener">
-        <div class="page-opener-content">
-            <h1>Welcome to our Hotel Showcase</h1>
-            <p>Discover the perfect accommodations for your next trip</p>
+        <div class="page-opener-content"> <!-- Topo background will disapear on responsive -->
+            <h2>Welcome to our Hikes Showcase</h2>
+            <p>Discover the perfect hikes and walks for your next trip</p>
         </div>
     </section>
-    <section class="flavour-text">
+    <div class="flavour-text">
         <div class="row">
             <div class="column">
                 <img src="assets/images/catbells.jpg" alt="Catbells" style="width:100%">
@@ -56,38 +47,35 @@
                 <img src="assets/images/blencathra.jpg" alt="Rannerdale Knotts" style="width:100%">
             </div>
         </div>
-    </section>
+    </div>
     <section id="cafes" style="
         margin-left: 10px;
-        margin-right: 10px;
+    margin-right: 10px;
+    
     ">
-        <div id="cafe-1">
+        <div id="cafe-1" class="cafe-section"> <!-- shares cafe id as the pages are very similar in setup and allows for simultanius  -->
             <h2>Catbells - Easy</h2>
             <p>A classic hike which features in pretty much every ‘best hikes in the lake district’ guide.
-            <br>
-            It does so for good reason, situated just outside of Keswick the views from the summit over Derwentwater
-            and towards
-            Skiddaw and Blencathra are sensational.
-            <br>
-            The undulating peak is easy to access and not that difficult to climb, especially when there are several
-            flat sections
-            which allow you to catch your breath and take in the scenery.
-            <br>
-            Although I would recommend hiking all the way to the summit, you only have to make the short 750m walk
-            up to Skellgill
-            Bank, which is the first of the hills viewpoints, in order to be granted great views.
+                <br>
+                It does so for good reason, situated just outside of Keswick the views from the summit over Derwentwater
+                and towards
+                Skiddaw and Blencathra are sensational.
+                <br>
+                The undulating peak is easy to access and not that difficult to climb, especially when there are several
+                flat sections
+                which allow you to catch your breath and take in the scenery.
+                <br>
+                It is a recommeded first climb for many.
             </p>
             <hr>
-            <ol class="cafe-stats" style="margin-left: 20px; ">
+            <ol class="cafe-stats" style="margin-left: 20px;"> <!-- Made smaller under each section to provide stats for the walk for people to quick view-->
                 <li>CATBELLS WALK DISTANCE: 3.8 MILES (6.2KM)</li>
                 <li>CATBELLS WALKING TIME: 2 HOURS</li>
                 <li>CATBELLS WALK DIFFICULTY: EASY</li>
             </ol>
-
-
         </div>
-        <div id="cafe-2">
-            <h2>Blencathra via Sharp Edge - Hard</h2>
+        <div id="cafe-2" class="cafe-section">
+            <h2>Blencathra - Hard</h2>
             <p>Blencathra, also known as Saddleback, is an iconic part of the Lake District landscape. Its distinctive
                 table-top shape
                 which towers above the town of Keswick makes it instantly recognisable.
@@ -100,8 +88,6 @@
                 are confident
                 with heights, have the appropriate footwear and in the right conditions.
                 <br>
-                Blencathras location and short distance to the summit also makes this a great mountain to ascend for
-                sunrise.
             </p>
             <hr>
             <ol class="cafe-stats" style="margin-left: 20px;">
@@ -110,23 +96,23 @@
                 <li>BLANCATHRA WALK DIFFICULTY: HARD</li>
             </ol>
         </div>
-        <div id="cafe-3">
+        <div id="cafe-3" class="cafe-section">
             <h2>Rannerdale Knotts - Medium</h2>
             <p>One of the less challenging walks.
-            
-            This short loop takes you up to the summit of Rannerdale Knotts which affords you terrific views over
-            Crummock Water and
-            down the Buttermere valley towards Fleetwith Pike.
-            <br>
-            I’d recommend tackling this route in an anticlockwise direction as the climb is more gentle.
-            
-            You will also finish off your walk off by skirting around the edge of Crummock Water, which is a
-            delightfully tranquil
-            spot to go for a wild swim to cool off.
-            <br>
-            During the spring there is also a hidden valley of Bluebells situated behind Rannerdale Knotts which you
-            can scramble
-            down from the summit to visit.
+                <br>
+                This short loop takes you up to the summit of Rannerdale Knotts which affords you terrific views over
+                Crummock Water and
+                down the Buttermere valley towards Fleetwith Pike.
+                <br>
+                I’d recommend tackling this route in an anticlockwise direction as the climb is more gentle.
+                <br>
+                You will also finish off your walk off by skirting around the edge of Crummock Water, which is a
+                delightfully tranquil
+                spot to go for a wild swim to cool off.
+                <br>
+                During the spring, there is also a hidden valley of Bluebells situated behind Rannerdale Knotts which you
+                can scramble
+                down from the summit to visit.
                 <br>
             </p>
             <hr>
@@ -137,21 +123,37 @@
             </ol>
         </div>
     </section>
-    
+
+    <hr>
+    <!-- The footer -->
     <footer>
-        <ul class="social-links">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i> </a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i> </a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i> </a></li>
-        </ul>
-        <p>
+        <div class="container">
+            <div class="column">
+                <h3>Follow Us</h3>
+                <ul class="social-links">
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <h3>Contact</h3>
+                <p>123 Street, City</p>
+                <p>lakedistrict@example.com</p>
+                <p>123-456-7890</p>
+            </div>
+            <div class="column">
+                <h3>Newsletter</h3>
+                <form>
+                    <label for="email">Sign Up!:</label>
+                    <input type="email" name="email" id="email" required>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <p class="copyright">
             © 2023 - 2023 www.lakedistrict.com - All Rights Reserved.
         </p>
-        <form>
-            <label for="email">Sign Up!:</label>
-            <input type="email" name="email" id="email" required>
-            <input type="submit" value="Submit">
-        </form>
     </footer>
 </body>
 
