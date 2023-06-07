@@ -793,7 +793,7 @@ section.hotel {
     
     
     .page-opener {
-         background-image: url('/assets/images/topo.jpg');
+         background-image: url('assets/images/topo.jpg');
          background-size: cover;
          background-position: center;
         height: 400px;
