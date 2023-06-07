@@ -187,13 +187,15 @@ The Lake District is a website that allows newer travelers to the area be able t
 - [HTML Validator](https://validator.w3.org/)
 
     - results for index
-    <!-- ADD ------------------------------------------------------------>
+    ![HTML results menu](documentation/validator/html-valid.png)
     - results for hike
     ![HTML results menu](documentation/validator/html-valid.png)
     - results for cafe
     ![HTML results menu](documentation/validator/html-valid.png)
     - results for hotel
     ![HTML results menu](documentation/validator/html-valid.png)
+    
+- [CSS Validator](https://validator.w3.org/)
     - results for CSS
     ![HTML results menu](documentation/validator/html-valid.png)
 

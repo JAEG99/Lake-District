@@ -299,9 +299,6 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-why-heading h2 {
-    
-}
 
 #container {
     width: 400px;
@@ -793,7 +790,7 @@ section.hotel {
     
     
     .page-opener {
-         background-image: url('assets/images/topo.jpg');
+         background-image: url('../images/topo.jpg');
          background-size: cover;
          background-position: center;
         height: 400px;
