@@ -1,8 +1,8 @@
 <h1 align="center">The Lake District Tourist Website</h1>
 
-[View the live project here](#)
+[View the live project here](https://jaeg99.github.io/Lake-District/index.html)
 
-The Lake District is a website that allows newer travelers to the area be able to get a good understanding of the places to visit and enjoy. the main function of the webiste it to be a short and consice way for traverlers and hikers to be able to find the quick info they want, weather that is walks, hotels or cafes to fill up in. thsi site will be useful as it will give people the ability to get good starting info if they want to visit the area.
+The Lake District is a website that allows newer travellers to the area to be able to get a good understanding of the places to visit and enjoy. the main function of the website it to be a short and concise way for travellers and hikers to be able to find the quick info they want, whether that is walks, hotels or cafes to fill up in. The site will be useful as it will give people the ability to get good starting info if they want to visit the area.
 
 ![Mockup](documentation/supp-images/resp-mockup.png)
 
