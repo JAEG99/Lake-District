@@ -4,7 +4,7 @@
 
 The Lake District is a website that allows newer travelers to the area be able to get a good understanding of the places to visit and enjoy. the main function of the webiste it to be a short and consice way for traverlers and hikers to be able to find the quick info they want, weather that is walks, hotels or cafes to fill up in. thsi site will be useful as it will give people the ability to get good starting info if they want to visit the area.
 
-![Mockup]()
+![Mockup] (documentation/supp-images/mockup.png)
 
 ## Index – Table of Contents
 
@@ -225,11 +225,11 @@ The Lake District is a website that allows newer travelers to the area be able t
 ### How this site was deployed
 
 - In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu 
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
+- From the source section drop-down menu, select the main Branch
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment
 - Any changes pushed to the master branch will take effect on the live project
 
-  The live link can be found here - [The Lake District](https://github.com/JAEG99/Lake-District) 
+  The live link can be found here - [The Lake District](https://jaeg99.github.io/Lake-District/index.html) 
 
 ### How to clone the repository
 
