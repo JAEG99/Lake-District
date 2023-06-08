@@ -263,4 +263,4 @@ The Lake District is a website that allows newer travellers to the area to be ab
 
 ### Acknowledgments
 
-- Thank you to my mentor Precious who has helped me from the onset of the project and pointed out many design and code tips to help me get to where I have. He also was a great help with providing resources I would use in the project and without him there would be no project. I would also like to thank my Tutor Komal who helped me with some code issues and was a great help when issues arose with tools and code.
+- Thank you to my mentor Precious who has helped me from the onset of the project and pointed out many design and code tips to help me get to where I have. He also was a great help with providing resources I would use in the project and without him there would be no project. I would also like to thank my Tutor Komal who helped me with some code issues and was a great help when issues arose with tools and code and my classmates who we spent late nights on out weekly call discussing our code and helping each other.
