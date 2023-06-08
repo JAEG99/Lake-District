@@ -719,10 +719,11 @@ section.hotel {
     color: #333;
     font-size: 24px;
     margin-top: 0;
+    text-decoration-line: underline;
 }
 
 .hotel-info p {
-    color: #666;
+    color: rgb(0, 0, 0);
     font-size: 16px;
     line-height: 1.6;
 }
