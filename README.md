@@ -220,6 +220,8 @@ The Lake District is a website that allows newer travellers to the area to be ab
  - ## Resolved
    ![Bug](documentation/validator/Bug.png)
 
+   - This was fixed as I had an extra body element left over from previous testing and experementation
+
 ## Deployment
 
 ### How this site was deployed
